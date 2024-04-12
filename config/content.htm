@@ -28,7 +28,8 @@
 <p></p>
 <p></p>
 <p></p>
-<p><a href="https://41223138.github.io/wcm2024"></a></p><h1>Replit</h1>
+<p><a href="https://41223138.github.io/wcm2024"></a></p>
+<h1>Replit</h1>
 <p><a href="https://replit.com">https://replit.com</a></p>
 <p>利用 init_replit 指令安裝所需 Python 模組<br/><br/>chmod u+x init_replit<br/><br/>./init_replit</p>
 <p dir="auto">On Replit:</p>
@@ -84,40 +85,41 @@ brython({debug:1, pythonpath:['/static/','./../downloads/py/']});
 <p>從 1 累加到 100:</p>
 <p><button id="add1to100">1 add to 100</button></p>
 <p>將 iterable 與 iterator <a href="https://home.gamer.com.tw/creationDetail.php?sn=4337438">相關說明</a>, 利用 Brython 與 Ace Editor 整理在這個頁面.</p>
-<!-- 導入 brython 程式庫 -->
-<p>
+<h1><strong>W6</strong></h1>
+<p><strong><!-- 導入 brython 程式庫 --></strong></p>
+<h1><strong>
 <script src="/static/brython.js"></script>
 <script src="/static/brython_stdlib.js"></script>
-</p>
-<!-- 啟動 Brython -->
-<p>
+</strong></h1>
+<p><strong><!-- 啟動 Brython --></strong></p>
+<h1><strong>
 <script>
 window.onload=function(){
 brython({debug:1, pythonpath:['/static/','./../downloads/py/']});
 }
 </script>
-</p>
-<p><!-- 導入 FileSaver 與 filereader --></p>
-<p>
+</strong></h1>
+<p><strong><!-- 導入 FileSaver 與 filereader --></strong></p>
+<h1><strong>
 <script src="/static/ace/FileSaver.min.js" type="text/javascript"></script>
 <script src="/static/ace/filereader.js" type="text/javascript"></script>
-</p>
-<p><!-- 導入 ace --></p>
-<p>
+</strong></h1>
+<p><strong><!-- 導入 ace --></strong></p>
+<h1><strong>
 <script src="/static/ace/ace.js" type="text/javascript"></script>
 <script src="/static/ace/ext-language_tools.js" type="text/javascript"></script>
 <script src="/static/ace/mode-python3.js" type="text/javascript"></script>
 <script src="/static/ace/snippets/python.js" type="text/javascript"></script>
-</p>
-<p><!-- 導入 gearUtils-0.9.js Cango 齒輪繪圖程式庫 -->
+</strong></h1>
+<h1><strong><!-- 導入 gearUtils-0.9.js Cango 齒輪繪圖程式庫 -->
 <script src="/static/Cango-24v03-min.js"></script>
 <script src="/static/gearUtils-09.js"></script>
 <script src="/static/SVGpathUtils-6v03-min.js"></script>
 <script src="/static/sylvester.js"></script>
 <script src="/static/PrairieDraw.js"></script>
-</p>
-<p><!-- 請注意, 這裡使用 Javascript 將 localStorage["kw_py_src1"] 中存在近端瀏覽器的程式碼, 由使用者決定存檔名稱--></p>
-<p>
+</strong></h1>
+<p><strong><!-- 請注意, 這裡使用 Javascript 將 localStorage["kw_py_src1"] 中存在近端瀏覽器的程式碼, 由使用者決定存檔名稱--></strong></p>
+<h1><strong>
 <script type="text/javascript">
 function doSave(storage_id, filename){
     var blob = new Blob([localStorage[storage_id]], {type: "text/plain;charset=utf-8"});
@@ -125,8 +127,8 @@ function doSave(storage_id, filename){
     saveAs(blob, filename+".py");
 }
 </script>
-</p>
-<p>
+</strong></h1>
+<h1><strong>
 <script type="text/python3">
 from browser import document as doc
 import ace
@@ -162,8 +164,8 @@ doc['clear_bd1'].bind('click', clear_bd1)
 # 呼叫函式執行
 run1()
 </script>
-</p>
-<p><!-- add 1 to 100 開始 -->
+</strong></h1>
+<h1><strong><!-- add 1 to 100 開始 -->
 <script type="text/python3">
 from browser import document as doc
 import ace
@@ -189,133 +191,167 @@ def add(ev):
 # id 為 "add1to100" 的按鈕點按時, 執行 add 方法
 doc["add1to100"].bind('click', add)
 </script>
-</p>
+</strong></h1>
 <p><!-- add 1 to 100 結束--></p>
 <!-- editor1 開始 -->
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
-<div id="kw_editor1" style="width: 600px; height: 300px;"></div>
+<div id="kw_editor1" style="width: 600px; height: 300px;">1.
+<div class="w-full text-token-text-primary" data-testid="conversation-turn-7" dir="auto">
+<div class="px-4 py-2 justify-center text-base md:gap-6 m-auto">
+<div class="flex flex-1 text-base mx-auto gap-3 juice:gap-4 juice:md:gap-6 md:px-5 lg:px-1 xl:px-5 md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem] group">
+<div class="relative flex w-full flex-col agent-turn">
+<div class="flex-col gap-1 md:gap-3">
+<div class="flex flex-grow flex-col max-w-full">
+<div class="min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;]:mt-5 overflow-x-auto" data-message-author-role="assistant" data-message-id="ca2005bb-0e8d-4b8c-a2aa-5b86108c16c4" dir="auto">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p>GitHub 的發展歷史如下：</p>
+<p>GitHub 於 2008 年由 Tom Preston-Werner、Chris Wanstrath 和 PJ Hyett 共同創立。他們希望為開發者社群提供一個方便、易於使用的代碼托管平台。</p>
+<p>2008 年 4 月，GitHub 開始運營，提供基於 Git 的代碼托管服務。它快速吸引了許多開發者和開源項目，成為了開源社區的中心之一。</p>
+<p>隨著時間的推移，GitHub 提供了越來越多的功能，包括問題跟踪、代碼審查、Wiki 等，使其成為開發團隊協作的理想選擇。</p>
+<p>2018 年，Microsoft 宣布收購 GitHub，但 GitHub 仍然保持獨立運營，並致力於為開發者社群提供更好的服務。</p>
+<p>GitHub 的成功不僅在於它提供了優秀的技術平台，還在於它建立了一個強大的開發者社群，促進了開源文化的發展和分享知識的精神。</p>
+<p></p>
+<p><span>github創作人的相關履歷:</span></p>
+<div class="w-full text-token-text-primary" data-testid="conversation-turn-9" dir="auto">
+<div class="px-4 py-2 justify-center text-base md:gap-6 m-auto">
+<div class="flex flex-1 text-base mx-auto gap-3 juice:gap-4 juice:md:gap-6 md:px-5 lg:px-1 xl:px-5 md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem] group">
+<div class="relative flex w-full flex-col agent-turn">
+<div class="flex-col gap-1 md:gap-3">
+<div class="flex flex-grow flex-col max-w-full">
+<div class="min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;]:mt-5 overflow-x-auto" data-message-author-role="assistant" data-message-id="b3bbf267-bd56-4f09-ba9d-24e2961b4741" dir="auto">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p>GitHub 的創始人之一是 Tom Preston-Werner。他在 2008 年共同創立了 GitHub，是這個平台的主要推動者之一。以下是 Tom Preston-Werner 的相關履歷：</p>
+<p>Tom Preston-Werner 在程序員社群中享有很高的聲譽。他以開放源碼項目為主，是 Ruby 社群中知名的成員之一。</p>
+<p>他曾是 GitHub 的首席技術官（CTO），負責制定技術方針和平台架構。他對於 GitHub 平台的成功和技術發展貢獻良多。</p>
+<p>在創立 GitHub 之前，Tom Preston-Werner 還參與過多個開源項目的開發和維護工作，他的開源貢獻為他贏得了廣泛的尊重和讚譽。</p>
+<p>雖然 Tom Preston-Werner 在 2014 年離開了 GitHub，但他的貢獻對於 GitHub 和開發者社群的發展影響深遠。</p>
+<p></p>
+<p></p>
+<p></p>
+<div class="w-full text-token-text-primary" data-testid="conversation-turn-11" dir="auto">
+<div class="px-4 py-2 justify-center text-base md:gap-6 m-auto">
+<div class="flex flex-1 text-base mx-auto gap-3 juice:gap-4 juice:md:gap-6 md:px-5 lg:px-1 xl:px-5 md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem] group">
+<div class="relative flex w-full flex-col agent-turn">
+<div class="flex-col gap-1 md:gap-3">
+<div class="flex flex-grow flex-col max-w-full">
+<div class="min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;]:mt-5 overflow-x-auto" data-message-author-role="assistant" data-message-id="92a2012c-7841-4c0c-a3e0-30253919921c" dir="auto">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
 <p><!-- 存擋表單開始 --></p>
-<form><label>Filename: <input id="kw_filename" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src1', 'kw_filename1');" type="submit" value="Save"/></form>
-<p><!-- 存擋表單結束 --></p>
+<form>
 <p></p>
-<p><!-- 執行與清除按鈕開始 --></p>
-<p><button id="kw_run1">Run</button> <button id="kw_show_console1">Output</button> <button id="kw_clear_console1">清除輸出區</button><button id="clear_bd1">清除繪圖區</button><button onclick="window.location.reload()">Reload</button></p>
-<p><!-- 執行與清除按鈕結束 --></p>
 <p></p>
-<p><!-- 程式執行 ouput 區 --></p>
-<div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console1"></textarea></div>
-<p><!-- Brython 程式執行的結果, 都以 brython_div1 作為切入位置 --></p>
-<div id="brython_div1"></div>
-<!-- editor1 結束 --><hr/><!-- ########################################## -->
-<p>從 1 累加到 100 part2:</p>
-<p><button id="add1to100part2">1 add to 100</button><button id="cango_three_gears">cango_three_gears</button><button id="bsnake">BSnake</button><button id="aitetris">AI Tetris</button><button id="threejsblock">Rotating Block</button></p>
-<p><!-- 請注意, 這裡使用 Javascript 將 localStorage["kw_py_src2"] 中存在近端瀏覽器的程式碼, 由使用者決定存檔名稱--></p>
-<p>
-<script type="text/python3">
-from browser import document as doc
-import ace
-# 清除畫布
-def clear_bd2(ev):
-    bd = doc["brython_div2"]
-    bd.clear()
-Ace3 = ace.Editor(editor_id="kw_editor2", console_id="kw_console2", container_id="kw__container2", storage_id="kw_py_src2" )
-# 從 gist 取出程式碼後, 放入 editor 作為 default 程式
-def run2():
-    # 利用 get 取下 src 變數值
-    try:
-        url = doc.query["src2"]
-    except:
-        url = "https://gist.githubusercontent.com/mdecourse/0229a8a017091476a79700b8a190f185/raw/c3a6deaf717f8f2739a4b1392a5ab10936e9693a/from_1_add_to_10_1.py"
-    prog = open(url).read()
-
-    # 將程式載入編輯區
-    Ace3.editor.setValue(prog)
-    Ace3.editor.scrollToRow(0)
-    Ace3.editor.gotoLine(0)
-    # 直接執行程式
-    #ns = {'__name__':'__main__'}
-    #exec(prog, ns)
-    # 按下 run 按鈕
-    Ace3.run()
-
-# 執行程式, 顯示輸出結果與清除輸出結果及對應按鈕綁定
-doc['kw_run2'].bind('click', Ace3.run)
-doc['kw_show_console2'].bind('click', Ace3.show_console)
-doc['kw_clear_console2'].bind('click', Ace3.clear_console)
-doc['clear_bd2'].bind('click', clear_bd2)
-# 呼叫函式執行
-run2()
-</script>
-</p>
-<p><!-- add 1 to 100 part2 開始 -->
-<script type="text/python3">
-from browser import document as doc
-import ace
-
-# 清除畫布
-def clear_bd2(ev):
-    bd = doc["brython_div2"]
-    bd.clear()
-
-# 利用 ace 中的 Editor 建立 Ace2 物件, 其中的輸入變數分別對應到頁面中的編輯區物件
-Ace4 = ace.Editor(editor_id="kw_editor2", console_id="kw_console2", container_id="kw__container2", storage_id="kw_py_src2" )
-
-# 透過 Ace4 以類別建立一個通用的 button2, 可以在多個案例中將 gist 程導入編輯區
-
-class button2:
-    def __init__(self, url):
-        self.url = url
-
-    # 記得加入 event 輸入變數
-    def do(self,ev):
-        Ace4.editor.setValue(open(self.url).read())
-        Ace4.editor.scrollToRow(0)
-        Ace4.editor.gotoLine(0)
-        Ace4.run()
-
-add1to100_url = "https://gist.githubusercontent.com/mdecourse/0229a8a017091476a79700b8a190f185/raw/c48e37714f055c3a0027cbfef59e442a6ef659b9/from_1_add_to_100_1.py"
-
-# 從 gist 取得程式碼
-add_src = open(add1to100_url).read()
-def add2(ev):
-    Ace4.editor.setValue(add_src)
-    Ace4.editor.scrollToRow(0)
-    Ace4.editor.gotoLine(0)
-    Ace4.run()
-
-# id 為 "add1to100part2" 的按鈕點按時, 執行 add 方法
-doc["add1to100part2"].bind('click', add2)
-# 以下為運用 button2 class 的通用 gist 程式導入區
-################################## cango_three_gears start
-cango_three_gears_url = "https://gist.githubusercontent.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d/raw/f7a85d737d6723d5e34c526d5daee990ed92c32b/cango_three_gears_brython_div2.py"
-cango_three_gears = button2(cango_three_gears_url)
-doc["cango_three_gears"].bind("click", cango_three_gears.do)
-################################## cango_three_gears end
-################################## bsnake start
-bsnake_url = "https://gist.githubusercontent.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d/raw/f7a85d737d6723d5e34c526d5daee990ed92c32b/kmol_snakey.py"
-bsnake = button2(bsnake_url)
-doc["bsnake"].bind("click", bsnake.do)
-################################## bsnake end
-################################## aitetris start
-aitetris_url = "https://gist.githubusercontent.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d/raw/f7a85d737d6723d5e34c526d5daee990ed92c32b/pygame_to_brython_tetris_ai.py"
-aitetris = button2(aitetris_url)
-doc["aitetris"].bind("click", aitetris.do)
-################################## aitetris end
-################################## threejsblock start
-threejsblock_url = "https://gist.githubusercontent.com/mdecycu/2c6323eff49b496d1bafd210f3ec9707/raw/df37802f9e8a386b6424f7945af622b1cd0a9ca5/threejs_rotating_block.py"
-threejsblock = button2(threejsblock_url)
-doc["threejsblock"].bind("click", threejsblock.do)
-################################## threejsblock end
-</script>
-</p>
-<p><!-- add 1 to 100 part2 結束--></p>
-<!-- editor2 開始 -->
-<p><!-- 用來顯示程式碼的 editor 區域 --></p>
-<div id="kw_editor2" style="width: 600px; height: 300px;"></div>
-<p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
-<p><!-- 存擋表單開始 --></p>
-<form><label>Filename: <input id="kw_filename2" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src2', 'kw_filename2');" type="submit" value="Save"/></form>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p>一般同一專業領域的人士可以利用 Git 解決內容管理問題的方式包括：</p>
+<ol>
+<li>
+<p><strong>版本控制</strong>：使用 Git 跟踪文件的每一次變化，能夠輕鬆地比較不同版本之間的差異，從而更好地管理和維護專案的內容。</p>
+</li>
+<li>
+<p><strong>協作開發</strong>：多人協作開發時，可以利用 Git 的分支（branch）功能讓不同的團隊成員同時進行獨立的工作，最後再將各自的修改合併（merge）到主分支，從而實現高效率的協作開發。</p>
+</li>
+<li>
+<p><strong>版本回溯</strong>：當出現錯誤或需要回復到之前的某個版本時，可以利用 Git 輕鬆地回溯到過去的任何一個提交點，進行修復或恢復。</p>
+</li>
+<li>
+<p><strong>代碼審查</strong>：通過 Git 提交的每一個變更都可以進行代碼審查，有助於發現潛在的問題並提出改進建議，從而提高代碼的質量和穩定性。</p>
+</li>
+<li>
+<p><strong>分支管理</strong>：利用 Git 可以方便地管理不同的功能分支、bug 修復分支等，從而更好地組織和規劃專案的開發進度。</p>
+</li>
+<li>
+<p><strong>遠程協作</strong>：通過將專案代碼托管到遠程 Git 服務（如 GitHub、GitLab、Bitbucket 等），可以實現跨地區或跨團隊的協作開發，並提供安全的備份和存儲。</p>
+</li>
+</ol>
+<p>總的來說，Git 提供了豐富的功能和工具，能夠有效地解決內容管理問題，提高團隊協作效率，並確保專案的可追溯性和穩定性。</p>
+<p>在 Windows 上進行 Git 客戶端（client）和 Git 服務器（server）的實際演示，可以按照以下步驟進行：</p>
+<h3>設置 Git 服務器：</h3>
+<ol>
+<li>
+<p><strong>安裝 Git</strong>：首先在適當的位置下載並安裝 Git，你可以從 <a href="https://git-scm.com/" target="_new">Git 官方網站</a> 下載 Windows 版本的 Git 安裝程式。</p>
+</li>
+<li>
+<p><strong>初始化 Git 儲存庫</strong>：在你希望作為 Git 服務器的文件夾中初始化一個空的 Git 儲存庫。你可以使用命令行或 Git 圖形用戶界面（GUI）工具來執行這一步驟。</p>
+<div class="dark bg-gray-950 rounded-md">
+<div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">git init --bare myrepo.git </code></div>
+</div>
+</li>
+<li>
+<p><strong>啟動 Git 服務器</strong>：使用 Git 命令啟動 Git 服務器。</p>
+<div class="dark bg-gray-950 rounded-md">
+<div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">git daemon --reuseaddr --base-path=. --export-all --verbose --<span class="hljs-built_in">enable</span>=receive-pack </code></div>
+</div>
+</li>
+</ol>
+<h3>設置 Git 客戶端：</h3>
+<ol>
+<li>
+<p><strong>安裝 Git</strong>：在你的 Windows 機器上安裝 Git，可以使用與上述相同的安裝程式。</p>
+</li>
+<li>
+<p><strong>克隆儲存庫</strong>：使用 Git 客戶端，克隆剛剛初始化的 Git 儲存庫到你的本地計算機上。</p>
+<div class="dark bg-gray-950 rounded-md">
+<div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">git <span class="hljs-built_in">clone</span> git://your-server-ip/myrepo.git </code></div>
+</div>
+</li>
+</ol>
+<h3>進行演示：</h3>
+<ol>
+<li>
+<p>在 Git 客戶端進行一些更改，例如添加新文件、修改現有文件等。</p>
+</li>
+<li>
+<p>使用 Git 客戶端將這些更改提交到本地儲存庫。</p>
+<div class="dark bg-gray-950 rounded-md">
+<div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">git add . git commit -m <span class="hljs-string">"Commit message"</span> </code></div>
+</div>
+</li>
+<li>
+<p>將本地更改推送（push）到 Git 服務器。</p>
+<div class="dark bg-gray-950 rounded-md">
+<div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">git push origin master </code></div>
+</div>
+</li>
+<li>
+<p>在 Git 服務器端，可以使用 Git 工具或任何文字編輯器檢查提交的更改。</p>
+</li>
+</ol>
+<p>這樣就完成了在 Windows 上進行 Git 客戶端和 Git 服務器的實際演示。這個過程可以讓你了解 Git 在團隊協作中的基本運作方式。</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p><label>Filename: <input id="kw_filename2" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src2', 'kw_filename2');" type="submit" value="Save"/></p>
+</form>
 <p><!-- 存擋表單結束 --></p>
 <p></p>
 <p><!-- 執行與清除按鈕開始 --></p>
