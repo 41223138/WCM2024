@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-20T03:59:37+08:00</updated><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-06-17T15:47:07+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-20T04:08:37+08:00</updated><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-06-17T15:47:07+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
@@ -349,4 +349,4 @@ IDE（整合開發環境）是一種讓開發者可以在瀏覽器中進行程�
 &lt;p&gt;AI 工具
 AI工具是指利用機器學習、深度學習、自然語言處理等技術開發的應用程式，用於解決各種問題或執行特定任務。這些工具可以應用於多個領域，包括但不限於自然語言處理、圖像處理、機器學習模型訓練、數據分析等。以下是一些常見的AI工具：&lt;/p&gt;
 &lt;p&gt;Scikit-learn：基於Python的機器學習庫，提供了各種機器學習算法的實現，包括分類、回歸、聚類等。&lt;/p&gt;
-&lt;p&gt;ChatGPT 是一個基於 OpenAI 的語言模型，具有多種功能，可以幫助用戶進行對話、提供信息、創作文本等。&lt;/p&gt;</content><category term="期中重點"></category><category term="網誌編寫"></category></entry></feed>
+&lt;p&gt;ChatGPT 是一個基於 OpenAI 的語言模型，具有多種功能，可以幫助用戶進行對話、提供信息、創作文本等。&lt;/p&gt;</content><category term="期中重點"></category><category term="網誌編寫"></category></entry><entry><title>製作小遊戲</title><link href="./%E8%A3%BD%E4%BD%9C%E5%B0%8F%E9%81%8A%E6%88%B2.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-06-20T04:08:37+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./製作小遊戲.html</id><content type="html">&lt;h2&gt;製作小遊戲&lt;/h2&gt;</content><category term="製作小遊戲"></category><category term="網誌編寫"></category></entry></feed>
